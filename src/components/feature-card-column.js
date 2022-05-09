@@ -10,8 +10,8 @@ export default function FeatureCardColumn({
 }) {
   return (
     <Box sx={styles.card}>
-      {src !== '/_next/static/images/fullstack-8c473117927232b1697107c8a34ec8aa.jpg' && <Image src={src} alt={altText} sx={styles.img} style={{width: '170px', height: '160px', mixBlendMode: 'multiply'}}/>}
-      {src === '/_next/static/images/fullstack-8c473117927232b1697107c8a34ec8aa.jpg' && <Image src={src} alt={altText} sx={styles.img} style={{width: '170px', height: '160px', mixBlendMode: 'multiply', borderRadius: '50%'}}/>}
+      {title !== 'Full Stack from end to end' && <Image src={src} alt={altText} sx={styles.img} style={{width: '170px', height: '160px', mixBlendMode: 'multiply'}}/>}
+      {title === 'Full Stack from end to end' && <Image src={src} alt={altText} sx={styles.img} style={{width: '170px', height: '160px', mixBlendMode: 'multiply', borderRadius: '50%'}}/>}
       <Box sx={styles.wrapper}>
         <Heading sx={styles.wrapper.title}>{title}</Heading>
         <Text sx={styles.wrapper.subTitle}>{text}</Text>
