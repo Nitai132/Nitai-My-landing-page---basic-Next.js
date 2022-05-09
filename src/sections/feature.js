@@ -71,7 +71,7 @@ export default function Feature() {
           title="Meet the exciting technologies i will use to create your website"
         />
 
-        <Grid sx={styles.grid}>
+        <Grid sx={styles.grid} style={{backgroundColor: 'lightblue'}}>
           {data.map((item) => (
             <FeatureCard
               key={item.id}

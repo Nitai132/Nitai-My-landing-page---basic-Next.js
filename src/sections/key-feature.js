@@ -44,7 +44,7 @@ export default function KeyFeature() {
           title="I am developing with new technologies as i am always up to date and learning what is coming out of the market. A strong developer who knows what he is doing at any given moment."
         />
 
-        <Grid sx={styles.grid}>
+        <Grid sx={styles.grid} style={{backgroundColor: 'lightblue'}}>
           {data.map((item) => (
             <FeatureCardColumn
               key={item.id}

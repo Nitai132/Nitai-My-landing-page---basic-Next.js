@@ -14,42 +14,42 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Landing page design and deploy',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Nitai have made a beautiful landing page for my business in matter of few days. the website he made was amazing and the proccess was fun and intersting.',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Ayala ben ari',
+    designation: '@Ayala.ben',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Complex web-app - Automatic trader',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'I have worked with Nitai for more than a year on different complex projects and the result was always amazing. he is a hard worker, delivering fast and quality results',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Jovany Millo',
+    designation: '@Jovany.m',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Online shop - Fruits shop',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Nitai have made an online shop for my business and the result was amazing. the functionality is smart and fast and the design is trendy. Nitai is always free to help me with any problem',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Yakir Shahar',
+    designation: '@Yakir.Shahar',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: 'A top class student',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Nitai was my student for one year and he has been a top student since day one. Nitai was always involved in class, providing high grades and making friends with oher students',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Ofer Golibroda',
+    designation: '@Ofer.Golib',
     review: 4,
   },
 ];

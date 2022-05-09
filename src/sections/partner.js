@@ -27,7 +27,7 @@ export default function PartnerSection() {
             btnURL={data.btnURL}
           />
         </Box>
-        <Box sx={{ px: [0, null, '40px', 0] }}>
+        <Box sx={{ px: [0, null, '40px', 0] }} style={{backgroundColor: 'lightblue'}}>
           <Image src={Partner} alt="Partner" style={{ mixBlendMode: 'multiply' }} />
         </Box>
       </Container>
