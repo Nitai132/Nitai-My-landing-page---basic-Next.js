@@ -6,11 +6,11 @@ import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+import BannerThumb from 'assets/banner3.png';
 
-import client1 from 'assets/sponsor/paypal.svg';
-import client2 from 'assets/sponsor/google.svg';
-import client3 from 'assets/sponsor/dropbox.svg';
+import client1 from 'assets/sponsor/react.png';
+import client2 from 'assets/sponsor/node.png';
+import client3 from 'assets/sponsor/angular.png';
 
 const data = [
   {
@@ -72,20 +72,21 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
-          {/* <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
+          <Flex sx={styles.sponsorBox}>
+            <h1 sx={styles.sponsorTitle}>Powered by:</h1>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
                 <Link path={item.path} key={`client-key${index}`}>
-                  <Image src={item.image} alt={item.title} />
+                  <Image src={item.image} alt={item.title} style={{ width: '80px', height: '80px', backgroundSize: 'contain', opacity: '80%' }} />
                 </Link>
               ))}
             </Box>
-          </Flex> */}
+          </Flex>
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image src={BannerThumb} alt="banner"
+            style={{ width: '500px', position: 'relative', right: '200px', top: '40px'}} />
         </Box>
       </Container>
     </section>
