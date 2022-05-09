@@ -40,7 +40,7 @@ export default function CoreFeature() {
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>
-            <TextFeature subTitle={data.subTitle} title={data.title} isWhite={true} />
+            <TextFeature subTitle={data.subTitle} title={data.title} isWhite={true}/>
           </Box>
           <Grid gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (
@@ -67,7 +67,7 @@ const styles = {
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
-    py: [0, null, null, 2, null, 7],
+    py: [3, null, null, 2, null, 7],
     position: 'relative',
     '&::before': {
       position: 'absolute',
@@ -113,7 +113,7 @@ const styles = {
     display: 'flex',
     alignItems: 'flex-start',
     p: [
-      '0 17px 20px',
+      '15 17px 20px',
       null,
       null,
       '0 0 20px',
@@ -142,6 +142,7 @@ const styles = {
     width: ['50px', null, '55px'],
     height: 'auto',
     flexShrink: 0,
+    mt: '10px',
     mr: [3, 4],
   },
   wrapper: {
@@ -154,6 +155,8 @@ const styles = {
       color: 'heading_secondary',
       lineHeight: 1.4,
       fontWeight: 700,
+      position: 'relative',
+      top: '20px',
       mb: [22, null, null, null, 33],
     },
 
