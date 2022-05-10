@@ -8,11 +8,11 @@ export default function SectionHeader({ title, slogan, isWhite }) {
         as="h2"
         sx={{
           variant: 'sectionHeader.title',
-          color: isWhite ? 'darkred' : 'lightgrey',
+          color: isWhite ? 'darkblue' : 'lightgrey',
           opacity: isWhite ? 0.7 : 1,
           paddingBottom: '40px',
-          fontFamily: 'Brush Script MT',
-          
+          fontFamily: 'Garamond, serif',
+          fontSize: '40px'
         }}
       >
         {slogan}

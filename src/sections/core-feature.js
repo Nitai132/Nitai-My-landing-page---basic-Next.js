@@ -84,6 +84,7 @@ const styles = {
     },
   },
   containerBox: {
+    paddingTop: '50px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',

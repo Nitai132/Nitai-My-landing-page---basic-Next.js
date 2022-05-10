@@ -44,7 +44,7 @@ const MobileDrawer = () => {
 
   return (
     <Drawer
-      width="320px"
+      width="220px"
       drawerHandler={
         <Box sx={styles.handler}>
           <IoMdMenu size="26px" />
@@ -68,6 +68,7 @@ const MobileDrawer = () => {
                 offset={-70}
                 duration={500}
                 key={i}
+                onClick={()=> toggleHandler()}
               >
                 {label}
               </Link>
